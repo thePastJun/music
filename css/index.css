@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color:rgb(201, 200, 200);
+}
+
+.header {
+    width: 100%;
+    height: 45px;
+}
+
+.header .logo {
+    float: left;
+    margin-left: 40px;
+}
+
+.header .logo a {
+    display: inline-block;
+    width: 83px;
+    height: 22px;
+    background: url('../images/player_logo.png') no-repeat;
+    background-size: cover;
+    opacity: .5;
+    margin-top: 12px;
+}
+
+.header .register {
+    float: right;
+    line-height: 45px;
+}
+
+.header .register li {
+    list-style: none;
+    float: left;
+    margin-right: 40px;
+    color: #fff;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.header .register li:hover,
+.header .logo a:hover {
+    opacity: 1;
+}
+
+.content {
+    width: 100%;
+    height: 460px;
+}
+
+.content .content_in {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.content_in .content_left {
+    float: left;
+    width: 800px;
+    height: 100%;
+}
+
+.content_left .content_toolbar {
+    width: 100%;
+    height: 40px;
+}
+
+.content_toolbar span {
+    display: inline-block;
+    width: 122px;
+    height: 100%;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 6px;
+    opacity: .5;
+}
+
+.content_toolbar span:hover {
+    opacity: 1;
+}
+
+.content_toolbar span i {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    vertical-align: -5px;
+    background-size: cover;
+    background: url('../images/')
+}
+
+.content_toolbar span:nth-child(1) i {
+    background: url('../images/收\ 藏.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+.content_toolbar span:nth-child(2) i {
+    background: url('../images/添加到2.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+.content_toolbar span:nth-child(3) i {
+    background: url('../images/下.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+.content_toolbar span:nth-child(4) i {
+    background: url('../images/删除.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+.content_toolbar span:nth-child(5) i {
+    background: url('../images/清空列表.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+.content_left .content_list {
+    width: 100%;
+    height: 420px;
+}
+
+.content_list li {
+    list-style: none;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid rgba(225, 255, 255, .5);
+    box-sizing: border-box;
+    user-select: none;
+}
+
+.content_list li div {
+    float: left;
+    line-height: 50px;
+    color: rgba(255, 255, 255, .5);
+    /* opacity: .5; */
+}
+
+.content_list .list_check {
+    width: 50px;
+    height: 100%;
+    text-align: center;
+   
+}
+
+.content_list .list_check i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #fff;
+    opacity: .5;
+}
+
+.content_list .list_checked i {
+    background: url('../images/勾.png') no-repeat 0 0;
+    background-size: cover;
+    opacity: 1;
+}
+
+.content_list .list_number {
+    width: 30px;
+    height: 100%;
+}
+.content_list .list_number2{
+    color: transparent !important;
+    background: url('../images/wave.gif') no-repeat 0 center;
+}
+.content_list .list_name {
+    width: 50%;
+    height: 100%;
+}
+
+.list_name .list_menu {
+    margin-top: 7px;
+    float: right;
+    margin-right: 30px;
+    display: none;
+}
+
+.list_menu a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background-size: cover;
+    opacity: .5;
+}
+.list_menu a:hover{
+    opacity: 1;
+}
+.list_menu a:nth-child(1) {
+    background: url('../images/播放2.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+.list_menu a:nth-child(2) {
+    background: url('../images/添加1.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+.list_menu a:nth-child(3) {
+    background: url('../images/下载4.png') no-repeat 0 0;
+    background-size: cover;
+}
+
+.list_menu a:nth-child(4) {
+    background: url('../images/分享.png') no-repeat 0 0;
+    background-size: cover;
+}
+.list_menu .list_menu_play2{
+    background: url('../images/暂停\ \(1\).png') no-repeat 0 0 !important;
+    background-size: cover !important;
+}
+.content_list .list_singer {
+    width: 20%;
+    height: 100%;
+}
+
+.content_list .list_time a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url('../images/删除\ \(3\).png') no-repeat 0 0;
+    background-size: cover;
+    float: left;
+    margin-top: 10px;
+    margin-right: 5px;
+    display: none;
+    opacity: .5;
+}
+.content_list .list_time a:hover{
+    opacity: 1;
+}
+.content_in .content_right {
+    float: right;
+    width: 400px;
+    height: 100%;
+    user-select: none;
+}
+
+.content_right .song_info {
+    text-align: center;
+    color: rgba(225, 255, 255, .5);
+    line-height: 30px;
+}
+
+.song_info .song_info_pic {
+    display: inline-block;
+    background: url('../images/album_cover_player.png')no-repeat 0 0;
+    background-size: cover;
+    width: 201px;
+    height: 180px;
+    text-align: left;
+}
+
+.song_info_pic img {
+    width: 180px;
+    height: 180px;
+}
+
+.song_info div a {
+    text-decoration: none;
+    color: #fff;
+    opacity: .5;
+}
+
+.song_info div a:hover {
+    opacity: 1;
+}
+.content_right .song_lyric_container{
+    margin-top: 30px;
+    height: 150px;
+    overflow:hidden;
+
+}
+.content_right .song_lyric {
+    text-align: center;
+}
+
+.content_right .song_lyric li {
+    list-style: none;
+    line-height: 30px;
+    color: rgba(225, 255, 255, .5);
+    font-weight: bold;
+}
+
+.content_right .song_lyric .cur{
+
+    color: rgb(6, 139, 33);
+
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.footer .footer_in {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    user-select:none;
+}
+
+.footer_in a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin-right: 15px;
+
+}
+
+.footer_in .music_pre {
+    width: 22px;
+    height: 21px;
+    background: url('../images/下一个.png')no-repeat 0 0;
+    background-size: cover;
+}
+
+.footer_in .music_play {
+    width: 24px;
+    height: 23px;
+    background: url('../images/播放\ \(1\).png') no-repeat 0 0;
+    background-size: cover;
+    vertical-align: -1px;
+}
+
+.footer_in .music_play2 {
+    width: 24px;
+    height: 23px;
+    background: url('../images/暂停.png') no-repeat 0 0;
+    background-size: cover;
+    vertical-align: -1px;
+}
+
+.footer_in .music_next {
+    width: 22px;
+    height: 21px;
+    background: url('../images/上一个.png')no-repeat 0 0;
+    background-size: cover;
+}
+
+.footer_in .music_progress_info {
+    display: inline-block;
+    width: 650px;
+    height: 40px;
+    position: relative;
+    top: -1px;
+}
+
+.music_progress_info .music_progress_top {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.music_progress_top .music_progress_name {
+    float: left;
+    opacity: .5;
+}
+
+.music_progress_top .music_progress_name:hover {
+    opacity: 1;
+}
+
+.music_progress_top .music_progress_time {
+    float: right;
+    opacity: .5;
+}
+
+.music_progress_info .music_progress_bar {
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, .5);
+    margin-top: 5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.music_progress_bar .music_progress_line {
+    width: 0px;
+    height: 100%;
+    background: #fff;
+}
+
+.music_progress_line .music_progress_dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    position:absolute;
+    top: -5px;
+    left: 0px;
+
+}
+
+.footer_in .music_mode {
+    width: 22px;
+    height: 22px;
+    background: url('../images/循环.png')no-repeat 0 0;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.footer_in .music_mode1 {
+    width: 22px;
+    height: 22px;
+    background: url('../images/列表循环.png')no-repeat 0 0;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.footer_in .music_mode2 {
+    width: 22px;
+    height: 22px;
+    background: url('../images/随机循环.png')no-repeat 0 0;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.footer_in .music_mode3 {
+    width: 22px;
+    height: 22px;
+    background: url('../images/单循环.png')no-repeat 0 0;
+    background-size: cover;
+    margin-left: 20px;
+}
+
+.footer_in .music_fav {
+    width: 22px;
+    height: 21px;
+    background: url('../images/收\ 藏\ \(1\).png')no-repeat 0 0;
+    background-size: cover;
+}
+
+.footer_in .music_fav2 {
+    width: 22px;
+    height: 21px;
+    background: url('../images/喜欢.png')no-repeat 0 0;
+    background-size: cover;
+}
+
+.footer_in .music_down {
+    width: 22px;
+    height: 21px;
+    background: url('../images/下载\ \(1\).png')no-repeat 0 0;
+    background-size: cover;
+}
+
+.footer_in .music_comment {
+    width: 22px;
+    height: 21px;
+    background: url('../images/信息\ \(2\).png')no-repeat 0 0;
+    background-size: cover;
+}
+
+.footer_in .music_only {
+    width: 38px;
+    height: 24px;
+    background: url('../images/OFF.png')no-repeat 0 0;
+    background-size: cover;
+}
+
+.footer_in .music_only2 {
+    width: 38px;
+    height: 24px;
+    background: url('../images/ON.png')no-repeat 0 0;
+    background-size: cover;
+}
+
+.footer_in .music_voice_icon {
+    width: 24px;
+    height: 23px;
+    background: url(../images/喇叭.png)no-repeat 0 0;
+    background-size: cover;
+    position: absolute;
+    left: -15px;
+    top: 16px;
+}
+
+.footer_in .music_voice_icon2 {
+    width: 24px;
+    height: 23px;
+    background: url(../images/静音.png)no-repeat 0 0;
+    background-size: cover;
+    position: absolute;
+    left: -15px;
+    top: 16px;
+}
+
+.footer_in .music_voice_info {
+    background-size: cover;
+    display: inline-block;
+    width: 125px;
+    height: 40px;
+    position: relative;
+}
+
+.music_voice_info .music_voice_bar {
+    width: 110px;
+    height: 4px;
+    background: rgba(255, 255, 255, .5);
+    position: absolute;
+    right: 0;
+    top: 26px;
+}
+
+.music_voice_bar .music_voice_line {
+    width: 110px;
+    height: 100%;
+    background: #fff;
+}
+
+.music_voice_line .music_voice_dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+    top: -5px;
+    left: 110px;
+}
+
+.mask_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    background: url('../images/tupic.jpg');
+    background-size: cover;
+    filter: blur(100px);
+}
+
+.mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .35);
+}
